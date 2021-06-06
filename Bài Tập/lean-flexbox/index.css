@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lucida;
+}
+/* nav-layout */
+.nav{
+    min-height: 42px;
+    background-color:  black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+.nav-item{
+    color: #fff;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+/* form-layout */
+.form-container{
+    max-width: 720px;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+    background-color: rgba(248, 242, 242, 0.671);
+
+}
+.form-row{
+    padding: 8px 0;
+    display: flex;
+}
+.form-lable{
+    min-width: 90px;
+}
+.form-input{
+    flex: 1;
+}
+/* column-layout */
+.column-layout{
+    margin-top: 36px;
+    padding: 12px 0;
+    background-color: rgba(248, 242, 242, 0.671);
+
+    display:  flex;
+}
+.column-item{
+    padding: 0 16px;
+}
+.sidebar-one{
+    flex: 1;
+}
+.main-column{
+    flex: 3;
+}
+.sidebar-two{
+    flex: 1;
+}
+/* future-layout */
+.future-layout{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+.future-item{
+    padding: 12px 16px;
+    margin: 6px;
+    display: 1;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.future-item:nth-child(1){
+    background-color: blueviolet;
+}
+.future-item:nth-child(2){
+    background-color: rgb(245, 250, 182);
+}.future-item:nth-child(3){
+    background-color: rgb(243, 159, 222);
+}
+/* wrap-layout */
+.wrap-layout{
+    background-color: rgba(248, 242, 242, 0.671);
+    margin-top: 36px;
+    padding:    12px 0 32px 0;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+.wrap-layout__item{
+    width: 148px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: red;
+}
+/* Center-layout */
+.center-layout{
+    background-color: cadetblue;
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    max-width: 640px;
+    height: 360px;
+    display: flex;
+}
+.center-item{
+    font-size: 42px;
+    font-weight: 700;
+    margin: auto;
+}
