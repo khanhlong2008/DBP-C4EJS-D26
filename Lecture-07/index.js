@@ -82,10 +82,10 @@ let inventory = {
 inventory.pocket = ["seashell", "strange berry", "lint"];
 inventory.backpack = []
   .concat(inventory.backpack.slice(0, 1))
-  .concat(inventory.backpack.slice(2));
+  .concat(inventory.backpack.slice(2,5));
 inventory.gold = inventory.gold + 50;
 delete inventory.pouch;
-// console.log(inventory);
+console.log(inventory);
 //3. Profile Lookup
 let contacts = [
   {
@@ -125,7 +125,7 @@ function lookUpProfile(name, prop) {
   return "No such contacts";
 }
 // let result = lookUpProfile("Akira", "likes");
-// console.log(result);
+console.log(lookUpProfile("Akira", "likes"));
 //4. Get Sum of People's Budget
 function getBudgets(People) {
   let sum = 0;
@@ -178,7 +178,7 @@ function greeting(person) {
     return "Hi I'm a guest";
   }
 }
-// console.log(greeting("Randy"))
+console.log(greeting("Randy"))
 //8. Return the Objects Keys and Values
 function keysAndValues(obj) {
   let arrayResult = [];

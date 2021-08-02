@@ -54,7 +54,7 @@ function render(pokemon){
     `)
     out.insertAdjacentHTML
 }
-
+let btn = document.querySelector("input[type=button]");
 btn.addEventListener("click",async ()=>{
     // thực hiện việc lấy dữ liệu
     // bất đồng bộ nên dùng await

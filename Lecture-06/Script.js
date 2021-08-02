@@ -71,7 +71,7 @@ function findOutlier(number) {
   let odd = number.filter((a) => a % 2 !== 0); //lọc ra mảng số lẻ(odd)
   return even.length === 1 ? even[0] : odd[0];
 }
-console.log(findOutlier([1, 3, 5, 4]));
+// console.log(findOutlier([2,4,3]));
 //filter
 //3 Return Types
 function arrayValuesTypes(array) {
